@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sandboxjs-dev-193032-authRole",
+      "UnauthRoleArn": "arn:aws:iam::149022829075:role/amplify-sandboxjs-dev-193032-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::149022829075:role/amplify-sandboxjs-dev-193032-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-sandboxjs-dev-193032-deployment",
+      "UnauthRoleName": "amplify-sandboxjs-dev-193032-unauthRole",
+      "StackName": "amplify-sandboxjs-dev-193032",
+      "StackId": "arn:aws:cloudformation:us-east-1:149022829075:stack/amplify-sandboxjs-dev-193032/17995920-c9db-11ed-a413-0a82afe9aa3f",
+      "AmplifyAppId": "d241lu3qlyua42"
+    },
+    "categories": {
+      "api": {
+        "sandboxjs": {}
+      },
+      "function": {
+        "sandboxjs902f520f": {}
+      },
+      "auth": {
+        "sandboxjs": {}
+      }
+    }
+  }
+}
