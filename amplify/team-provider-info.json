@@ -9,17 +9,25 @@
       "UnauthRoleName": "amplify-sandboxjs-dev-193032-unauthRole",
       "StackName": "amplify-sandboxjs-dev-193032",
       "StackId": "arn:aws:cloudformation:us-east-1:149022829075:stack/amplify-sandboxjs-dev-193032/17995920-c9db-11ed-a413-0a82afe9aa3f",
-      "AmplifyAppId": "d241lu3qlyua42"
+      "AmplifyAppId": "d241lu3qlyua42",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-sandboxjs-dev-193032-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "api": {
-        "sandboxjs": {}
+        "sandboxjs": {},
+        "userapi": {}
       },
       "function": {
-        "sandboxjs902f520f": {}
+        "sandboxjs902f520f": {
+          "deploymentBucketName": "amplify-sandboxjs-dev-193032-deployment",
+          "s3Key": "amplify-builds/sandboxjs902f520f-44512f694462397a636e-build.zip"
+        }
       },
       "auth": {
         "sandboxjs": {}
+      },
+      "storage": {
+        "user": {}
       }
     }
   }
